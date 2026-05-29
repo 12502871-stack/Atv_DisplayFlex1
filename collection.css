@@ -1,0 +1,252 @@
+* {
+    margin: 0%;
+    font-family:'Poppins', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+#barraLateral {
+width: 20%;
+position: sticky;
+top: 0%;
+display: flex;
+flex-direction: column;
+align-items: center;
+height: 70vh;
+justify-content: space-around;
+}
+
+#parteCima {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+#parteCima h1 {
+    padding-bottom: 40%;
+}
+
+#barraLateral h1 {
+    width: 45%;
+    height: 10%;
+}
+#barraLateral h1 a {
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#barraLateral h1 a span {
+    width: 150%;
+    height: 100%;
+    font-size: x-large;
+    font-weight: 800;
+    color: #000000;
+    text-align: center;
+}
+#barraLateral img {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+#ListaLinks {
+    list-style: none;
+    text-align: center;
+    padding: 0%;
+}
+#ListaLinks li {
+    margin-top: 20%;
+}
+#ListaLinks a {
+    text-decoration: none;
+    color: rgb(61, 61, 61);
+    font-size: large;
+    font-weight: 700;
+}
+#ListaLinks a:hover {
+    border-bottom: 1px solid black;
+}
+#home {
+    border-bottom: 1px solid black;
+}
+.parteBaixo {
+    width: 55%;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: 70%;
+}
+.parteBaixo h3 {
+    width: 100%;
+    height: 1vh;
+    color: darkgrey;
+    font-size: larger;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 15%;
+}
+.parteBaixo input {
+    width: 100%;
+    height: 5vh;
+}
+
+#conteudoPrincipal {
+width: 80%;
+height: 200vh;
+flex-direction: row;
+flex-wrap: wrap;
+}
+
+#sec01 {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(207, 181, 146);
+    padding: 10%;
+}
+#sec01 div {
+    display: flex;
+}
+#sec01 p {
+    margin-left: 2%;
+    color: black;
+    border-bottom: #000000 solid 1px;
+}
+#sec01 a {
+    text-decoration: none;
+    color: black;
+    border-bottom: #000000 solid 1px;
+}
+#sec02 {
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 3%;
+}
+#sec02 div {
+    width: 32%;
+    height: 25vh;
+}
+#sec02 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.4s;
+}
+#sec02 img:hover {
+    filter: brightness(30%);
+}
+
+#sec03 {
+    width: 100%;
+    height: 60vh;
+    background-color:rgb(42, 42, 44);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 3%;
+}
+#sec03 ul {
+    width: 33%;
+    height: 66%;
+}
+#sec03 ul li {
+    list-style: none;
+}
+#ul01:first-child p {
+    color: aliceblue;
+    font-weight: 600;
+    margin-bottom: 5%;
+}
+#ul01:last-child {
+    width: 100%;
+    height: 100%;
+}
+#galeria {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#galeria img {
+    width: 33%;
+    height: 110.94px;
+}
+
+#ul02 {
+    display: flex;
+    flex-direction: column;
+}
+#archives{
+    color: aliceblue;
+    font-weight: 600;
+    margin-bottom: 5%;
+}
+#ul02 p {
+    width: 100%;
+    color: aliceblue;
+    border-bottom: aliceblue solid 1px;
+    line-height: 250%;
+    display: flex;
+    justify-content: center;
+}
+#ul02 span {
+    width: 50%;
+}
+.span1 {
+    text-align: end;
+}
+
+#ul03 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    align-self: flex-start;
+}
+#ul03 li {
+    width: 70%;
+    display: flex;
+}
+#ul03 a {
+    text-decoration: none;
+    color: aliceblue;
+}
+#ul03 img {
+    width: 20px;
+    height: 20px;
+}
+#have {
+    color: aliceblue;
+    font-weight: 600;
+    margin-bottom: 5%;
+}
+#endereco {
+    color: aliceblue;
+    opacity: 70%;
+}
+
+#copy {
+    color: aliceblue;
+    opacity: 70%;
+    margin-left: 3%;
+}
+#copy span img{
+    width: 20px;
+    height: 20px;
+    opacity: 30%;
+}
